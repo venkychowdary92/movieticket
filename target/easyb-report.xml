@@ -1,0 +1,16 @@
+<easyb time='Thu Jan 21 14:46:49 IST 2021' totalbehaviors='1' totalfailedbehaviors='0' totalpendingbehaviors='0' executionTime='1671'>
+  <stories scenarios='1' failedscenarios='0' pendingscenarios='0' executionTime='1671'>
+    <story name='base search' scenarios='1' failedscenarios='0' pendingscenarios='0' executionTime='1671'>
+      <before name='set up constrained data' result='success' executionTime='747'>
+        <given name='our sample product data set' result='success' />
+      </before>
+      <scenario name='Exercise bikes' result='success' executionTime='128'>
+        <when name='I search for &apos;exercise bike&apos;' result='success' />
+        <when name='I sort by price descending' result='success' />
+        <then name='I should get two results with ids [PRD-123,PRD-234]' result='success' />
+        <then name='PRD-123 has a higher score than PRD-234' result='success' />
+      </scenario>
+    </story>
+  </stories>
+  <specifications specifications='0' failedspecifications='0' pendingspecifications='0' executionTime='0' />
+</easyb>
